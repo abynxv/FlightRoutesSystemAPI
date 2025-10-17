@@ -1,0 +1,155 @@
+# =====================================
+# Python & Django .gitignore
+# =====================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+env.local/
+venv.local/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static_root/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Flask instance folder (not used, but just in case)
+instance/
+
+# Environment variables
+.env
+.env.*
+.envrc
+*.env
+
+# VSCode / PyCharm / JetBrains IDEs
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyre type checker
+.pyre/
+
+# profiling data
+.prof
+
+# Logs and temp files
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# =====================================
+# Docker (if you later dockerize)
+# =====================================
+docker-compose.override.yml
+.docker/
+Dockerfile*
+.dockerignore
+*.pid
+
+# =====================================
+# Coverage, reports, builds
+# =====================================
+.coverage
+*.log
+reports/
+logs/
+*.out
+
+# =====================================
+# Project specific ignores
+# =====================================
+# SQLite database
+db.sqlite3
+# Uploaded files
+/media/
+# Static build artifacts
+/static/
+# Test results
+test_results/
